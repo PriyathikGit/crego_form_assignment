@@ -1,0 +1,45 @@
+{
+  "ui:classNames": "form-control",
+  "businessDetails": {
+    "businessName": {
+      "ui:placeholder": "Enter your business name"
+    },
+    "gstin": {
+      "ui:placeholder": "Enter GSTIN"
+    },
+    "directors": {
+      "ui:options": {
+        "addable": true,
+        "orderable": false,
+        "removable": true
+      }
+    }
+  },
+  "loanDetails": {
+    "creditScore": {
+      "ui:widget": "updown"
+    },
+    "requiredLoanAmount": {
+      "ui:widget": "range",
+      "ui:options": {
+        "min": 50000,
+        "max": 500000
+      }
+    },
+    "guarantors": {
+      "ui:options": {
+        "addable": true,
+        "orderable": false,
+        "removable": true
+      }
+    },
+    "bankStatements": {
+      "ui:options": {
+        "multiple": true,
+        "addable": true,
+        "orderable": false,
+        "removable": true
+      }
+    }
+  }
+}
