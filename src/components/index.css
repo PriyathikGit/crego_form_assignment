@@ -13,3 +13,7 @@
 .array-item-remove::before {
     content: "Remove"; /* The word you want to insert */
 }
+
+.panel{
+    display: none;
+}
